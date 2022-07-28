@@ -1,0 +1,80 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #F9DEDE;
+    font-size: 25px
+  text-align: center;
+
+}
+header {
+text-align: center;
+}
+h1 {
+  color: #24677D;
+  font-family: 'Stencil Std', fantasy;
+    padding-top: 1emn;
+  padding-bottom: 1em;
+}
+
+p {
+  color:black;
+  font-size: 16px;
+  font-family: 'Bradley Hand', cursive;
+}
+.Second {
+ font-family: 'Dancing Script', cursive;
+  color:#black;
+}
+
+
+
+
+/* STYLE IMAGES */
+img{
+  max-width:30%;
+  border-radius: 18%;
+margin-bottom: 2em;
+border: 3px solid white;
+}
+main{
+  text-align: center;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+#Pokemon {
+  border-radius: 5%;
+  border: 0px solid white;
+}
+#Phone {
+  border-radius: 5%; 
+  border: 0px solid white;
+}
+
+
+/* STYLE NAV BAR */
+ ul {
+   list-style-type:none;
+   background-color:#3eacd0;
+   overflow:hidden;
+  text-align:center;
+   padding:1em;
+   }  
+li{
+  display:inline;
+}
+li a {
+text-decoration: none;
+color: black;
+font-size: 1em;
+  
+}
+li a:hover{
+  background-color:#24677D;
+}
